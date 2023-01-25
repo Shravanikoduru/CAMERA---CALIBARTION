@@ -1,0 +1,65 @@
+
+    {
+    "python.analysis.typeCheckingMode": "basic",
+    "workbench.settings.editor": "json",
+    "editor.inlayHints.enabled": "on",
+    "editor.formatOnSave": true,
+    "editor.formatOnSaveMode": "file",
+    "editor.formatOnType": true,
+    "editor.formatOnPaste": true,
+
+    "editor.defaultFormatter": "rvest.vs-code-prettier-eslint",
+    "editor.codeActionsOnSave": {
+        "source.fixAll": true,
+  // For ESLint
+  "source.fixAll.eslint": true,
+  // For TSLint
+  "source.fixAll.tslint": true,
+  // For Stylelint
+  "source.fixAll.stylelint": true
+},
+"javascript.format.insertSpaceAfterConstructor": true,
+"javascript.format.insertSpaceAfterOpeningAndBeforeClosingJsxExpressionBraces": true,
+"javascript.format.insertSpaceBeforeFunctionParenthesis": true,
+"vsintellicode.features.apiExamplests": "enabled",
+"files.associations": {
+  "*.js": "javascript"
+},
+"[python]": {
+  "editor.defaultFormatter": "ms-python.python"
+},
+
+    "workbench.startupEditor": "none",
+    // ---> Editor settings---   
+    "editor.suggestSelection": "first",
+    "editor.fontSize": 16
+    , // for coding Tutorial
+    // "editor.fontSize": 20, // Normal
+    "editor.minimap.enabled": false,
+    "editor.fontLigatures": true,
+    "editor.lineHeight": 32, //Recordding codign Tutorial 
+    // "editor.lineHeight": 25, // noramal
+    "editor.fontFamily": "CaskaydiaCove NF, 'Courier New', monospace",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "window.zoomLevel": -1,
+    // ---> zen mode settings 
+    "zenMode.fullScreen": true,
+    "zenMode.hideLineNumbers": false,
+    "zenMode.hideStatusBar": true,
+    "zenMode.hideTabs": true,
+    "zenMode.centerLayout": false,
+    // ---> other settings 
+    "editor.bracketPairColorization.enabled": true,
+    "editor.codeLens": false,
+    // ---> code formator setttings
+    "editor.formatOnSave": true,
+    "python.formatting.provider": "black",
+    // pylance setting 
+    "python.analysis.autoImportCompletions": false,
+    "python.analysis.completeFunctionParens": true,
+    "[python]": { 
+    "editor.formatOnSaveMode": "file",       
+    "editor.formatOnPaste": false
+ }
+
+}
